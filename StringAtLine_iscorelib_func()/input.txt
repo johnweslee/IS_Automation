@@ -1,0 +1,7 @@
+Pre Build Event
+Pre Compression Event
+Post Build Event
+John Weslin Mohan
+Flexera Install Sheild
+Automation, corelib, TestCase, Test Scripts, VBScript
+QTP

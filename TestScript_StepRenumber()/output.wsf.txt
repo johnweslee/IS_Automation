@@ -1,0 +1,53 @@
+<job id="StepRenumber">
+<script language="VBScript" src="*path_to_iscorelib.vbs*"/>
+<script language="VBScript">
+
+'Template
+
+Retval = FuncA()
+FuncX "Step 1", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 2", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 3", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 4", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 5", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 6", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 7", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 8", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 9", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 10", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 11", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 12", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 13", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 14", "Description", Retval, ExpectedVal
+
+Retval = FuncA()
+FuncX "Step 15", "Description", Retval, ExpectedVal
+
+</script>
+</job>

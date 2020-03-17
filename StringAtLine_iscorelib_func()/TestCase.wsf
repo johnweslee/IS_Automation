@@ -1,0 +1,35 @@
+<job id="StringAtLine">
+<script language="VBScript" src="StringAtLine.vbs"/>
+<script language="VBScript">
+
+'Template
+
+TestCaseFolder = Mid(WScript.ScriptFullName, 1, Len(WScript.ScriptFullName) - Len(WScript.ScriptName))
+strFilePath = TestCaseFolder + "input.txt"
+
+Retval = FindStringInFileA(strFilePath, 1, "Pre Build Event")
+WScript.Echo Retval
+
+Retval = FindStringInFileA(strFilePath, 2, "Pre Compression Event")
+WScript.Echo Retval
+
+Retval = FindStringInFileA(strFilePath, 3, "Post Build Event")
+WScript.Echo Retval
+
+Retval = FindStringInFileA(strFilePath, 4, "Weslin")
+WScript.Echo Retval
+
+Retval = FindStringInFileB(strFilePath, 5, "Install Sheild")
+WScript.Echo Retval
+
+Retval = FindStringInFileB(strFilePath, 5, "TestCase, Test")
+WScript.Echo Retval
+
+Retval = FindStringInFileB(strFilePath, 7, "QTP")
+WScript.Echo Retval
+
+Retval = FindStringInFileB(strFilePath, 8, "QTP")
+WScript.Echo Retval
+
+</script>
+</job>
